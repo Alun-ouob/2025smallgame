@@ -130,9 +130,5 @@ function keyPressed() {
     timer = 30;
     gameOver = false;
     gameStarted = false; // 回到開始畫面
-    // 顯示大型字樣
-    textSize(50);
-    textAlign(CENTER, CENTER);
-    text("TKUET 413730267 伍志倫", width / 2, height - 30);
   }
 }
