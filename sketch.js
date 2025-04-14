@@ -124,7 +124,7 @@ function calculateRank() {
 }
 
 function keyPressed() {
-  if (gameOver && key === 'R') {
+  if (gameOver && (key === 'R' || key === 'r')) {
     // 重新開始遊戲
     score = 0;
     timer = 30;
